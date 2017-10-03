@@ -1,3 +1,4 @@
+#This is my submission for I/O Avenue's Project 1: Game On! 
 puts "Would you like to enter THE SHIP? <Y/N>"
 user_input = gets.chomp.upcase.strip
 
@@ -24,14 +25,17 @@ end
         when "Y"
             puts "Fighting!"
             puts "Press enter"
-                enter_input = gets.chomp.strip
+               # enter_input = gets.chomp.strip
                 choice == rand(1...3)
                     if choice == 1 then puts "You Won! Would you like to continue? <Y/N>"
                     elsif choice == 2 then puts "You lost. Rust will now pick your eyeballs out and
 you will be thrown off the ship."
-                repeat_input = gets.chomp.upcase.strip
+                #repeat_input = gets.chomp.upcase.strip
                     end 
+                    end
+                        
 # This code needs to be refined. Help.
+=begin
         when "N"
             puts "See ya later captain!"
     end
@@ -75,8 +79,10 @@ you will be thrown off the ship."
             puts "Boo! You could have been rich by now!"
     end      
         
-        
-        
+=end
+                        
+
+                        
         
         
         

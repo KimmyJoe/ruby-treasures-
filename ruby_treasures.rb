@@ -31,6 +31,7 @@ end
 you will be thrown off the ship."
                 repeat_input = gets.chomp.upcase.strip
                     end 
+# This code needs to be refined. Help.
         when "N"
             puts "See ya later captain!"
     end

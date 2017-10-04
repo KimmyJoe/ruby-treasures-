@@ -34,7 +34,7 @@ case battle1_input
         if choice == 1 then 
             puts "You Won! Play again to win the tressure chest full of Rubies."
         elsif choice == 2 then 
-            puts "You lost. You will be thrown off the ship and get eaten by crocodiles..."
+            puts "You lost \u{1f4a9}. You will be thrown off the ship and get eaten by crocodiles..."
     end 
 end
 
@@ -61,7 +61,8 @@ case battle2_input
         if choice == 1 then 
             puts "You Won! Play again to fight the protector of all rubies down in The Secret Room."
         elsif choice == 2 then 
-            puts "You lost. Rusty will now pick your eyeballs out and you will be thrown off the ship."
+            
+            puts "You lost \u{1f4a9}. Rusty will now pick your eyeballs out and you will be thrown off the ship."
     end 
 end
             
@@ -85,7 +86,7 @@ case battle3_input
         puts "."
         choice = rand(1...3)
         if choice == 1 then 
-            puts "You Won! Play again to fight the protector of all rubies
+            puts "You Won!  Play again to fight the protector of all rubies
 down in The Secret Room."
         elsif choice == 2 then 
             puts "The king strangles you with his tentacles and swallows you whole! You lost."

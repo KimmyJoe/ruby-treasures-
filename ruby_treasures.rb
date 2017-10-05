@@ -1,4 +1,13 @@
-#This is my submission for I/O Avenue's Project 1: Game On! 
+#This is my submission for I/O Avenue's Project 1: Game On!
+#Ruby Treasures
+#Kimmy Joe
+
+puts "Welcome to Ruby Treasures." 
+print "This game will allow you to enter a virtual ship where you'll have" 
+puts " to fight to enter The Secret Room."
+print "In The Secret Room awaits the king of all octopuses ready to fight and protect"
+puts " a treasure chest filled with all the rubies in the world."
+puts "If you win, all the rubies will be yours and you will be rich."
 puts "Would you like to enter THE SHIP? <Y/N>"
 user_input = gets.chomp.upcase.strip
 

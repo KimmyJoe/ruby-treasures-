@@ -20,6 +20,7 @@ case user_input
         puts " --> 2. Main Deck"
         puts " --> 3. The Secret Room"
         user_location = gets.chomp.strip
+    else
 end
 
 case user_location
@@ -44,6 +45,8 @@ case battle1_input
             puts "You Won! \u{1F600} Play again to win the tressure chest full of Rubies."
         elsif choice == 2 then 
             puts "You lost \u{1F613}. You will be thrown off the ship and get eaten by crocodiles..."
+    else 
+        puts "Wrong answer. Strart over!"
     end 
 end
 
@@ -70,9 +73,10 @@ case battle2_input
         if choice == 1 then 
             puts "You Won! \u{1F600} Play again to fight the protector of all rubies down in The Secret Room."
         elsif choice == 2 then 
-            
             puts "You lost \u{1F613}. Rusty will now pick your eyeballs out and you will be thrown off the ship."
     end 
+    else 
+        puts "Wrong answer. Strart over!"
 end
             
 
